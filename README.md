@@ -135,6 +135,58 @@ You need to provide your Gemini API key to the script. It checks for the key in 
 *   **Permission Errors:** Ensure the script has read permissions for the source directory and write permissions for the target directory.
 *   **Other Issues:** Check the console output or the log file (if specified using `--log-file`) for detailed error messages. Use `--log-level DEBUG` for maximum detail.
 
+## 📝 TODO List
+
+*   **Local Model Support:**
+    *   Add support for Gemma local models for offline sorting
+    *   Integrate with Ollama for local model inference
+    *   Support for GGUF models via llama.cpp
+    *   Allow users to choose between cloud and local models
+
+*   **Enhanced Sorting Features:**
+    *   Add support for custom sorting rule templates
+    *   Implement recursive sorting rules (sort within sorted folders)
+    *   Add file deduplication based on content hash
+    *   Support for sorting based on file content (e.g., image recognition, document topics)
+    *   Add batch processing for large directories
+    *   Implement undo/redo functionality for file moves
+
+*   **User Interface Improvements:**
+    *   Add dark mode support
+    *   Create a web interface alternative to tkinter
+    *   Add file preview functionality
+    *   Show sorting statistics and visualizations
+    *   Add drag-and-drop support
+    *   Implement real-time directory monitoring for automatic sorting
+
+*   **Performance & Scalability:**
+    *   Add parallel processing for large file sets
+    *   Implement caching for file metadata
+    *   Add support for network drives and cloud storage
+    *   Optimize memory usage for large directories
+    *   Add progress bars for long-running operations
+
+*   **Security & Reliability:**
+    *   Add file operation logging and audit trail
+    *   Implement backup functionality before moving files
+    *   Add checksum verification for moved files
+    *   Implement file permission preservation
+    *   Add support for encrypted directories
+
+*   **Integration & Extensibility:**
+    *   Create plugin system for custom sorting rules
+    *   Add support for cloud storage services (Google Drive, Dropbox)
+    *   Implement file tagging system
+    *   Add support for external metadata databases
+    *   Create API for external tool integration
+
+*   **Documentation & Testing:**
+    *   Add comprehensive test suite
+    *   Create video tutorials
+    *   Add internationalization support
+    *   Create detailed API documentation
+    *   Add benchmarking tools
+
 ## 🤝 Contributing
 
 Contributions are welcome!
