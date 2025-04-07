@@ -1,4 +1,4 @@
-# AI File Sorter 📂🤖
+# Gemini File Sorter 📂🤖
 
 A Python script that intelligently sorts files into organized subdirectories using the Google Gemini AI. It analyzes file metadata and content (where applicable) to generate custom sorting rules, either automatically or based on your instructions.
 
